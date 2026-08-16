@@ -1,0 +1,297 @@
+{
+  "timestamp": "2026-08-16T16:24:30.368911",
+  "total_questions": 10,
+  "passed": 10,
+  "results": [
+    {
+      "question_id": "Q1",
+      "category": "Single-doc (Review)",
+      "question": "Which supplier had the highest spend in Q1, and what was its on-time delivery percentage?",
+      "answer": "Shenzhen Rui Electronics had the highest spend in Q1, at \u20b921.9 crore. Its on-time delivery percentage was 79.5%.",
+      "sources": [
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 2
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 1
+        }
+      ],
+      "status": "\u2705 Answered"
+    },
+    {
+      "question_id": "Q2",
+      "category": "Single-doc (Review)",
+      "question": "How many line stoppages happened in Q1, what was the total downtime, and what caused them?",
+      "answer": "According to the context, in Q1 (which is not explicitly mentioned but can be inferred from the dates provided), there were 7 line stoppages. \n\nThe total downtime was 41 hours.\n\nThe causes of the line stoppages are as follows:\n\n1. Microcontroller shortage \u2014 vessel roll-over at Shenzhen (4 hours)\n2. Microcontroller shortage \u2014 9-day customs hold at Nhava Sheva (11 hours)\n3. PCB lot rejected at incoming inspection (Trident) (3 hours)\n4. Microcontroller shortage \u2014 partial shipment received (6 hours)\n5. Transporter strike, Coimbatore\u2013Pune corridor (5 hours)\n6. PCB lot rejected at incoming inspection (Trident) (8 hours)\n7. Microcontroller shortage \u2014 allocation shortfall from supplier (4 hours)\n\nFour of the seven events (22 hours of the 41) trace back to microcontroller supply from Shenzhen Rui Electronics, two events (11 hours) trace to printed circuit board quality from Trident Circuit Boards, and one event (5 hours) was due to a transporter strike.",
+      "sources": [
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 2
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 2
+        }
+      ],
+      "status": "\u2705 Answered"
+    },
+    {
+      "question_id": "Q3",
+      "category": "Single-doc (Handbook)",
+      "question": "What is the approval authority for a purchase order worth \u20b91.4 crore?",
+      "answer": "The approval authority for a purchase order worth \u20b91.4 crore is the Head of Procurement, as it falls between \u20b91 crore and \u20b95 crore.",
+      "sources": [
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 2
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 2
+        }
+      ],
+      "status": "\u2705 Answered"
+    },
+    {
+      "question_id": "Q4",
+      "category": "Single-doc (Handbook)",
+      "question": "What are the four supplier classification categories, and what qualifies a supplier as Critical?",
+      "answer": "The four supplier classification categories are:\n\n1. Critical\n2. Strategic\n3. Standard\n4. Tail\n\nA supplier is classified as Critical if any one of the following conditions is met:\n\n- Single-source for any part\n- Annual spend above \u20b910 crore\n- Supplies a safety-related component",
+      "sources": [
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 0
+        }
+      ],
+      "status": "\u2705 Answered"
+    },
+    {
+      "question_id": "Q5",
+      "category": "Cross-doc",
+      "question": "Kaveri Metals recorded 88.1% on-time delivery and 1,150 defects per million in Q1. Which policy clauses does this trigger, and what exactly must the buyer do?",
+      "answer": "Based on the provided context, Kaveri Metals recorded 88.1% on-time delivery, which is below the target of 95%. However, the defect rate of 1,150 defects per million is above the target of 250 defects per million.\n\nThis triggers policy clause 6.2, which states that if on-time delivery is below 85% for two consecutive quarters, a debit note equal to 2% of the quarterly invoice value is raised against the supplier, and the supplier must submit a formal improvement plan within 15 working days.\n\nHowever, since the defect rate is above 500 parts per million, it also triggers policy clause 6.3, which states that the supplier bears the cost of rework at a standard recovery rate of \u20b9120 per affected unit, and 100% incoming inspection is imposed at the supplier's cost until three consecutive lots are accepted without defect.\n\nThe buyer must raise a debit note and request a formal improvement plan from Kaveri Metals. Additionally, the buyer must impose 100% incoming inspection on Kaveri Metals until they meet the defect rate target.",
+      "sources": [
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 2
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        }
+      ],
+      "status": "\u2705 Answered"
+    },
+    {
+      "question_id": "Q6",
+      "category": "Cross-doc",
+      "question": "The microcontroller supplier is single-source. What does the sourcing policy require in this situation, and what is the company already doing about it?",
+      "answer": "According to the sourcing policy, when a part is single-sourced, the company requires a qualified second source to be in place within 12 months of the classification being assigned. This is stated in section 7.1, Dual sourcing.\n\nIn this situation, the microcontroller supplier is single-sourced, and the company's highest-rated risk carried into Q2 is the absence of a second source for microcontrollers. The company is already working on qualifying an alternate supplier, as mentioned in Section 8 of the document.\n\nAdditionally, the company has planned to shift 30% of the Shenzhen microcontroller volume to air freight on a planned basis until dual sourcing is live, as mentioned in the Supplier performance scorecard (Action 2).",
+      "sources": [
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 2
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 1
+        }
+      ],
+      "status": "\u2705 Answered"
+    },
+    {
+      "question_id": "Q7",
+      "category": "Cross-doc",
+      "question": "Microcontrollers are imported with a 46-day lead time. Using the safety-stock policy, how many days of stock should be held for this part?",
+      "answer": "The safety stock for imported parts is calculated as lead time in days \u00d7 0.25, subject to the minimum floors below. \n\nGiven the lead time for microcontrollers is 46 days, the safety stock would be:\nSafety stock (days) = 46 days \u00d7 0.25 = 11.5 days\n\nHowever, since the calculated figure and the floor differ, the higher value applies. For imported parts, the minimum safety stock is 10 days. Therefore, the safety stock for microcontrollers should be 10 days.",
+      "sources": [
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 2
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 2
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 2
+        }
+      ],
+      "status": "\u2705 Answered"
+    },
+    {
+      "question_id": "Q8",
+      "category": "Cross-doc",
+      "question": "Trident Circuit Boards had a defect rate of 640 parts per million. What is the cost consequence under the policy?",
+      "answer": "The cost consequence under the policy for Trident Circuit Boards' defect rate of 640 parts per million is not explicitly mentioned in the provided context. However, based on the policy clause 6.3, which states that the supplier bears the cost of rework at a standard recovery rate of \u20b9120 per affected unit, and 100% incoming inspection is imposed at the supplier's cost until three consecutive lots are accepted without defect, we can infer that the cost consequence would be the cost of rework and 100% incoming inspection at the supplier's cost.\n\nThe cost of rework is not explicitly mentioned in the context, but we can calculate it as follows:\n\nDefect rate = 640 parts per million\nTotal defects = (640/1,000,000) * Total parts\nAssuming Total parts = 1,000,000 (for simplicity)\nTotal defects = 640\n\nCost of rework = Total defects * \u20b9120 per affected unit\n= 640 * \u20b9120\n= \u20b976,800\n\nHowever, the actual cost of rework and 100% incoming inspection at the supplier's cost is not available in the uploaded documents.",
+      "sources": [
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 2
+        }
+      ],
+      "status": "\u2705 Answered"
+    },
+    {
+      "question_id": "Q9",
+      "category": "Cross-doc",
+      "question": "Which suppliers would fall below the B rating band on on-time delivery alone, and what is the escalation path for them?",
+      "answer": "Based on the given context, a supplier delivering below 75% cannot score in band B on on-time delivery alone. \n\nFrom the supplier performance scorecard, the following suppliers would fall below the B rating band on on-time delivery alone:\n\n1. Shenzhen Rui Electronics - 79.5%\n2. Trident Circuit Boards - 84.6%\n\nThe escalation path for these suppliers is as follows:\n\n1. Buyer - 24 hours (Delivery slippage of up to 3 days)\n2. Category Manager - 48 hours (Delivery slippage beyond 3 days, or a rejected lot)\n3. Head of Procurement - 72 hours (Risk of line stoppage within 7 days)\n4. Chief Operating Officer - 5 working days (Actual line stoppage, or supplier insolvency signal)",
+      "sources": [
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 2
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 2
+        }
+      ],
+      "status": "\u2705 Answered"
+    },
+    {
+      "question_id": "Q10",
+      "category": "Trap (should refuse)",
+      "question": "What is the annual salary of the Head of Procurement?",
+      "answer": "The information is not available in the uploaded documents.",
+      "sources": [
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 2
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 0
+        },
+        {
+          "file": "./data/Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+          "page": 1
+        },
+        {
+          "file": "./data/Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf",
+          "page": 0
+        }
+      ],
+      "status": "\u2705 Answered"
+    }
+  ]
+}
